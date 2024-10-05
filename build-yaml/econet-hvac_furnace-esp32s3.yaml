@@ -8,7 +8,7 @@ substitutions:
 
 packages:
   econet:
-    url: https://github.com/esphome-econet/esphome-econet
+    url: https://github.com/Zerosk83/esphome-econet
     ref: main
     file: econet_hvac_furnace.yaml
   # Uncomment if you have an communicating Outdoor Unit

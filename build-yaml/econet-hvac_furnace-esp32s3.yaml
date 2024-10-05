@@ -18,7 +18,7 @@ packages:
   #   file: econet_hvac_odu.yaml
 
 dashboard_import:
-  package_import_url: github://esphome-econet/esphome-econet/build-yaml/${name}-${variant}.yaml@${github_ref}
+  package_import_url: github://Zerosk83/esphome-econet/build-yaml/${name}-${variant}.yaml@${github_ref}
   import_full_config: false
 
 esphome:

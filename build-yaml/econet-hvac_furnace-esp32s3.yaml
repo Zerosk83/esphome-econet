@@ -8,16 +8,16 @@ substitutions:
 
 packages:
   econet:
-    url: https://github.com/esphome-econet/esphome-econet
+    url: https://github.com/Zerosk83/esphome-econet
     ref: main
     file: econet_hvac_furnace.yaml
   econet-hvac-odu:
-    url: https://github.com/esphome-econet/esphome-econet
+    url: https://github.com/Zerosk83/esphome-econet
     ref: main
     file: econet_hvac_odu.yaml
 
 dashboard_import:
-  package_import_url: github://esphome-econet/esphome-econet/build-yaml/${name}-${variant}.yaml@${github_ref}
+  package_import_url: github://Zerosk83/esphome-econet/build-yaml/${name}-${variant}.yaml@${github_ref}
   import_full_config: false
 
 esphome:
